@@ -1,0 +1,25 @@
+
+import = ["~/.config/alacritty/themes/gruvbox_dark.toml"]
+live_config_reload = true
+
+
+[font]
+# AppleFontSmoothing = true
+size = 20.0
+
+# [font.normal]
+# family = "Fira Code"
+# style = "Regular"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+# opacity = 0.85
+
+[window.padding]
+x = 18
+y = 16
+
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
